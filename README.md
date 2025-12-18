@@ -4,13 +4,21 @@ Overview
 This project implements a secure and adversarially robust deep learning pipeline for analyzing remote sensing survey maps. It integrates image encryption, semantic understanding, adversarial attack simulation, and defense mechanisms.
 
 Key Features
+
 ->U-Net with ResNet34 encoder
+
 ->AES-256 encryption for secure image transmission
+
 ->Adversarial attacks: FGSM and PGD
+
 ->Defense mechanisms:
+
 ->FGSM adversarial fine-tuning
+
 ->Hybrid input preprocessing defense
+
 ->End-to-end secure inference demonstration
+
 
 ## Project Structure
 
@@ -48,23 +56,39 @@ secure-remote-sensing-segmentation/
 
 
 Methodology:
+
 ->Train U-Net with ResNet34 on remote sensing images
+
 ->Encrypt images using AES-256 for secure transmission
+
 ->Simulate FGSM and PGD adversarial attacks
+
 ->Apply adversarial fine-tuning and hybrid defenses
+
 ->Evaluate robustness and visualize results
+
 ->Results
+
 ->FGSM adversarial fine-tuning improves robustness
+
 ->PGD attacks are mitigated using hybrid defenses
+
 ->Secure and robust inference is achieved
 
 Technologies Used:
+
 ->Python
+
 ->PyTorch
+
 ->segmentation-models-pytorch
+
 ->Cryptography (AES)
+
 ->OpenCV
+
 ->NumPy
+
 ->Matplotlib
 
 Notes:
